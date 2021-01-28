@@ -53,6 +53,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InitialData\CourseInitialData.cs" />
+    <Compile Include="InitialData\DormitoryInitialData.cs" />
+    <Compile Include="InitialData\HobbyInitialData.cs" />
+    <Compile Include="InitialData\PersonInitialData.cs" />
+    <Compile Include="InitialData\ProfesionalInitialData.cs" />
+    <Compile Include="InitialData\StudentInitialData.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Dormitory.cs" />
+    <Compile Include="Models\Enrolment.cs" />
+    <Compile Include="Models\Hobby.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Profession.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -60,6 +74,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
