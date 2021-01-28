@@ -11,11 +11,8 @@ namespace EFProjektas.Models
     {
         [Key]
         public int CourseId { get; set; }
-
         [MaxLength(150)] 
         public string Title { get; set; }
-
-
         [Required]
         [MaxLength(150)]
         public string Duration { get; set; }
