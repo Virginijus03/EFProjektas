@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EFProjektasContext.cs" />
+    <Compile Include="EFProjektasContextInicializer.cs" />
     <Compile Include="InitialData\CourseInitialData.cs" />
     <Compile Include="InitialData\DormitoryInitialData.cs" />
     <Compile Include="InitialData\HobbyInitialData.cs" />
